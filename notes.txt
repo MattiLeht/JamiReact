@@ -1,0 +1,9 @@
+max-w-[728px] mx-auto text-center
+max width
+margin-x auto
+--
+90vh = view height
+bg = background
+mt = marginTop
+shadow-xl = varjo
+border relative = ilmeisesti reuna sopeutuu
