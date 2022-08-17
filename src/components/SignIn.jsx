@@ -1,6 +1,5 @@
 import React from 'react'
-//import GoogleButton from 'react-google-button'
-import loginnappi from "./uusloginnappi.png"
+import GoogleButton from 'react-google-button'
 
 import {auth} from '../firebase'
 import {GoogleAuthProvider, signInWithRedirect} from 'firebase/auth'
@@ -17,7 +16,7 @@ const googleSignIn = () => {
 const SignIn = () => {
   return (
     <div className={style.wrapper}>
-        <button onClick={googleSignIn}><img src={loginnappi} alt="Login"/></button>
+        <GoogleButton onClick={googleSignIn} />
     </div>
   )
 }

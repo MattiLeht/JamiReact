@@ -1,13 +1,17 @@
-# JamiReact
+# JamiChat react harjoitus
 
-# Mukana
+Tutorial Code Commerce kanavalta.
 
-#Jeba!
+URL: https://www.youtube.com/watch?v=PJCr_aoOv68
 
-# Ihme Testailua
+### `npm start`
 
-#Oon ihan sekasin tän kanssa =D
+-Käynnistää ohjelman.
 
-#Vähemmästäkin sekoo tässä
 
-tää ny meni lisään tonne kuvat kansioon muutakin shittiä kun pelkät kuvat?! ei ollu tarkotus mut en osaa poistaa niitä x(
+
+
+
+
+
+

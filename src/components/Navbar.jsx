@@ -13,7 +13,7 @@ const Navbar = () => {
     console.log(user)
   return (
     <div className={style.nav}>
-      <h1 className={style.heading}>Chat Appi</h1>
+      <h1 className={style.heading}>Täsä Tää meijän Appi</h1>
       {user ? <LogOut /> : <SignIn />}
 
     </div>
