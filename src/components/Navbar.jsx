@@ -8,7 +8,7 @@ import tausta from './headerBG.jpg'
 
 
 const style = {
-    nav: `bg-white-800 h-13 flex justify-between items-center p-4`,
+    nav: `bg-gray-800 h-13 flex justify-between items-center p-0`,
     heading: `text-white text-xl`
 }
 
