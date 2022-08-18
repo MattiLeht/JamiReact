@@ -1,6 +1,10 @@
 import React from 'react'
 //import GoogleButton from 'react-google-button'
+<<<<<<< Updated upstream
 import loginnappi from "./uusloginnappi.jpg"
+=======
+import loginnappi from "../Images/uusloginnappi.png"
+>>>>>>> Stashed changes
 
 import {auth} from '../firebase'
 import {GoogleAuthProvider, signInWithRedirect} from 'firebase/auth'

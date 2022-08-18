@@ -3,7 +3,7 @@ import SignIn from './SignIn'
 import LogOut from './LogOut'
 import {auth} from '../firebase'
 import {useAuthState} from 'react-firebase-hooks/auth'
-import tausta from './headerBG.jpg'
+import tausta from '../Images/headerBG.jpg'
 
 
 

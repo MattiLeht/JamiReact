@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import {auth, db} from '../firebase'
 import {addDoc, collection, serverTimestamp} from 'firebase/firestore'
-import send from './buttonsend2.jpg'
-import loota from './tekstiloota.jpg'
+import send from '../Images/buttonsend2.jpg'
+import loota from '../Images/tekstiloota.jpg'
 
 
 const style = {
