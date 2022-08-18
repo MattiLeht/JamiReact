@@ -1,6 +1,6 @@
 import React from 'react'
 //import GoogleButton from 'react-google-button'
-import loginnappi from "./uusloginnappi.png"
+import loginnappi from "./uusloginnappi.jpg"
 
 import {auth} from '../firebase'
 import {GoogleAuthProvider, signInWithRedirect} from 'firebase/auth'
