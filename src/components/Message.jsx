@@ -4,7 +4,7 @@ import {auth} from '../firebase'
 const style = {
   message: `flex items-center shadow-xl m-4 py-2 px-3 rounded-tl-full rounded-tr-full`,
   name: `absolute mt-[-4rem] text-gray-600 text-xs`,
-  sent: `bg-[#c0dccd] text-white flex-row-reverse text-end float-right rounded-bl-full`,
+  sent: `bg-[#709c84] text-white flex-row-reverse text-end float-right rounded-bl-full`,
   received: `bg-[#74dda4] text-black float-left rounded-br-full`,
 };
 
