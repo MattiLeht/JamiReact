@@ -2,8 +2,6 @@ import React, { useState } from 'react';
 import {auth, db} from '../firebase'
 import {addDoc, collection, serverTimestamp} from 'firebase/firestore'
 import send from '../Images/buttonsend2.jpg'
-import loota from '../Images/tekstiloota.jpg'
-
 
 const style = {
   form: `h-15 w-full max-w-[728px]  flex text-xl flexgit bottom-0`,
@@ -11,8 +9,6 @@ const style = {
   button: `px-0 py-200 w-[25%] h-[5%] bg-green-500`,
 }
   
-
-
 const SendMessage = ({scroll}) => {
   const [input, setInput] = useState('');
 
@@ -33,7 +29,6 @@ const SendMessage = ({scroll}) => {
     scroll.current.scrollIntoView({behavior: 'smooth'})
   }
   
-
   return (
     <form onSubmit={sendMessage}className={style.form}>
    
@@ -43,7 +38,7 @@ const SendMessage = ({scroll}) => {
         className={style.input}
         type='text'
         placeholder='Message'
-       
+
       />
       
       <button className={style.button} type='submit'><img src={send}></img>
