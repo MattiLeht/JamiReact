@@ -5,10 +5,8 @@ import {auth} from '../firebase'
 import {useAuthState} from 'react-firebase-hooks/auth'
 import tausta from '../Images/headerBG.jpg'
 
-
-
 const style = {
-    nav: `bg-gray-800 h-13 flex justify-between items-center p-0`,
+    nav: `bg-orange-300 h-13 flex justify-between items-center p-0`,
     heading: `text-white text-xl`
 }
 
