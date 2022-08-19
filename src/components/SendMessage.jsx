@@ -5,7 +5,7 @@ import send from '../Images/buttonsend2.jpg'
 
 const style = {
   form: `h-15 w-full max-w-[728px]  flex text-xl flexgit bottom-0`,
-  input: `w-full text-xl p-3 bg-gray-900 text-white outline-none border-none`,
+  input: `w-full text-xl p-3 bg-green-900 text-white outline-none border-none`,
   button: `px-0 py-200 w-[25%] h-[5%] bg-green-500`,
 }
   
